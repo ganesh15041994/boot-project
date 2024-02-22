@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:util="http://www.springframework.org/schema/util"
+
+
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-3.1.xsd
+         http://www.springframework.org/schema/util
+        http://www.springframework.org/schema/util/spring-util-3.1.xsd ">
+
+	<!-- In order to turn on Annotations in Spring over xml configuration we 
+		need to provide a tag by name <context:annotation-config /> see the tag below 
+		.... -->
+
+	<util:list list-class="java.util.LinkedList" id="my">
+		<value>Aman</value>
+		<value>Shubhma</value>
+		<value>Ganesh</value>
+
+	</util:list>
+
+	<util:map map-class="java.util.HashMap" id="f">
+		<entry key="java" value="20000" />
+		<entry key="Spring" value="2000" />
+		<entry key="Django" value="40000" />
+
+
+	</util:map>
+	
+	
+<!-- 	standAloneProperty -->
+
+<util:properties id="pro">
+<prop key="driver">com.mysql.jdbc.Driver</prop>
+<prop key="username">root</prop>
+<prop key="password">root</prop>
+<prop key="url">jdbc:mysql://localhost:3306/root</prop>
+
+</util:properties>
+
+	<context:annotation-config />
+	<!-- standAlone list -->
+	<bean class="com.org.spring.standalone.coll.Person" name="p">
+		<!-- <property name="friends"> <ref bean="my"></ref> </property> -->
+		<property name="friends" ref="my" />
+		<property name="fees" ref="f" />
+		<property name="properies" ref="pro"/>
+	</bean>
+
+
+	<bean class="com.org.spring.standalone.coll.Person" name="p2">
+		<!-- <property name="friends"> <ref bean="my"></ref> </property> -->
+		<property name="friends" ref="my" />
+		<property name="fees" ref="f"></property>
+		<property name="properies" ref="pro"/>
+
+
+	</bean>
+
+
+
+</beans>

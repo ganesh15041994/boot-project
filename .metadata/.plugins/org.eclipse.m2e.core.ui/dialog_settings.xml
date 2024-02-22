@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\PC\Documents\workspace-springBoot\SprinMVCXML\src\main\java\org\spring\model\Employee.java"/>
+			<item value="C:\Users\PC\Documents\workspace-springBoot\SpringMVC2\src\main\java\org\tecchub\HomeController.java"/>
+			<item value="C:\Users\PC\Documents\workspace-springBoot\SpringMVC"/>
+			<item value="C:\Users\PC\Documents\workspace-springBoot\SpringJDBC"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.spr.SpringMVCXMLConfig"/>
+			<item value="org.spr.SprinMVCXML"/>
+			<item value="org.spring.SpringMVC3"/>
+			<item value="com.spring.mvc2"/>
+			<item value="com.spring.mvc"/>
+			<item value="com.springMVC.SpringMVCSetup"/>
+			<item value="com.spr.jdbc.SpringJDBCC3"/>
+			<item value="com.org.springjdbc.JdbcCrud2"/>
+			<item value="com.org.springjdbc.SpringJCrud"/>
+			<item value="org.SpringJDBC"/>
+			<item value="org.SpringAnnotationCOnfig"/>
+			<item value="org.SpringCoreXmlConfig"/>
+			<item value="org.techhub.com.SpringCorePractice"/>
+		</list>
+		<list key="groupId">
+			<item value="com.spr"/>
+			<item value="org.spr"/>
+			<item value="org.spring"/>
+			<item value="com.spring.mvc2"/>
+			<item value="com.spring.mvc"/>
+			<item value="com.springMVC"/>
+			<item value="com.spr.jdbc"/>
+			<item value="com.org.springjdbc"/>
+			<item value="org"/>
+			<item value="org.techhub.com"/>
+		</list>
+		<list key="artifactId">
+			<item value="SpringMVCXMLConfig"/>
+			<item value="SprinMVCXML"/>
+			<item value="SpringMVC3"/>
+			<item value="SpringMVC2"/>
+			<item value="SpringMVC"/>
+			<item value="SpringMVCSetup"/>
+			<item value="SpringJDBCC3"/>
+			<item value="JdbcCrud2"/>
+			<item value="SpringJCrud"/>
+			<item value="SpringJDBC"/>
+			<item value="SpringAnnotationCOnfig"/>
+			<item value="SpringCoreXmlConfig"/>
+			<item value="SpringCorePractice"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>
